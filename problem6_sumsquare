@@ -1,0 +1,15 @@
+def square_sum():
+    sum1=0   
+    squarecount=0
+    squaresum=0
+    for i in range(101):
+        sum1=sum1+i
+        print(sum1)
+    squaresum=sum1*sum1
+    print (squaresum)
+    for j in range(101):
+        squarecount=squarecount+j*j
+        print(squarecount)
+    print(squaresum-squarecount)
+    
+square_sum()
