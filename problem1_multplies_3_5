@@ -1,0 +1,10 @@
+def total_3_5(num):
+    count = 0
+    i = 1
+    for i in range(num):
+        if (i%3==0 or i%5==0):
+            count=count+i
+    print(count)
+
+
+total_3_5(1000)
